@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+  }
+  
+  .content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .feed-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .right-sidebar {
+    width: 200px;
+    background-color: #4f3011;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column; /* Alteração: agora é uma coluna para melhor disposição dos elementos */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1; /* Alteração: faz o .main-content ocupar todo o espaço disponível verticalmente */
+  }
+  /* Adicione estilos adicionais conforme necessário */
+  

@@ -1,0 +1,126 @@
+.sidebar {
+    background-color: #4f3011;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 0.3s;
+    overflow: hidden;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+    background-color: #fff; /* Adicione a imagem do logo ou outra cor de fundo desejada */
+    margin: 20px 0;
+  }
+  
+  .button-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .button-list li {
+    margin-bottom: 10px;
+  }
+  
+  .button-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .sidebar {
+  /* ... outros estilos ... */
+  transition: width 0.3s;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.sidebar.closed {
+  width: 50px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+  width: 20%;
+  margin-left: 80%;
+  transition: margin-left 0.3s;
+}
+
+.sidebar.closed .button-list {
+    display: none; /* Adicione esta linha para ajustar a posição da lista quando estiver fechado */
+}
+
+.sidebar.closed .logo{
+    display: none;
+}
+.sidebar.closed .user-info{
+  display: none;
+}
+.navigation-links {
+  list-style: none;
+  padding: 0;
+  margin: 50px 0 0;
+}
+
+.navigation-links li {
+  margin-bottom: 10px;
+  color: #085834;
+}
+
+.navigation-links a {
+  text-decoration: none;
+  color: #A4EA4F;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.navigation-links a:hover {
+  background-color: #555;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.user-info h2 {
+  margin-bottom: 5px;
+}
+
+.user-info p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.sidebar.closed .toggle-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  
+/* Outros estilos ... */
+
+  
